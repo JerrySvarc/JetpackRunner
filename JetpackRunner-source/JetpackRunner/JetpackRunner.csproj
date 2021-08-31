@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\BackdropMain.png" />
+    <None Remove="images\BarryDead.png" />
+    <None Remove="images\BarryFly.png" />
+    <None Remove="images\BarryRun1.png" />
+    <None Remove="images\BarryRun2.png" />
+    <None Remove="images\BarryRun3.png" />
+    <None Remove="images\Zapper1.png" />
+    <None Remove="images\Zapper2.png" />
+    <None Remove="images\Zapper3.png" />
+    <None Remove="images\Zapper4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\BackdropMain.png" />
+    <Resource Include="images\BarryDead.png" />
+    <Resource Include="images\BarryFly.png" />
+    <Resource Include="images\BarryRun1.png" />
+    <Resource Include="images\BarryRun2.png" />
+    <Resource Include="images\BarryRun3.png" />
+    <Resource Include="images\Zapper1.png" />
+    <Resource Include="images\Zapper2.png" />
+    <Resource Include="images\Zapper3.png" />
+    <Resource Include="images\Zapper4.png" />
+  </ItemGroup>
+
+</Project>
